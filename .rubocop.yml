@@ -1,0 +1,39 @@
+
+require:
+  - rubocop-rake
+  - rubocop-rspec
+  - rubocop-performance
+
+inherit_mode:
+  merge:
+    - Exclude
+
+AllCops:
+  NewCops: enable
+  DisplayCopNames: true
+  TargetRubyVersion: '2.5'
+
+Layout/EmptyLinesAroundBlockBody:
+  Enabled: false
+
+Layout/EmptyLinesAroundClassBody:
+  EnforcedStyle: empty_lines_except_namespace
+
+Layout/EmptyLinesAroundModuleBody:
+  EnforcedStyle: empty_lines_except_namespace
+
+Layout/ExtraSpacing:
+  AllowBeforeTrailingComments: true
+
+Metrics/BlockLength:
+  Exclude:
+    - spec/**/*_spec.rb
+
+Naming/MethodParameterName:
+  AllowedNames: ["x", "y", "z"]
+
+RSpec/ExampleLength:
+  Max: 20
+
+RSpec/MultipleExpectations:
+  Enabled: false
