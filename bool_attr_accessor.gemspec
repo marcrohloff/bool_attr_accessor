@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
   spec.version       = BoolAttrAccessor::VERSION
   spec.authors       = ['Marc Rohloff']
 
-    spec.summary       = 'A gem for creating boolean attributes.'
+    spec.summary     = 'A gem for creating boolean attributes.'
   spec.description   = 'bool_attr_accessor is a gem for creating boolean style attributes.'
   spec.homepage      = 'https://github.com/marcrohloff/bool_attr_accessor'
   spec.license       = 'MIT'

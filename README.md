@@ -68,7 +68,7 @@ You can also use `attr_boolean` as an alias for `battr_accessor`
   end
 ```
 
-#### Options
+##### Options
 
 The following options are accepted:
 
@@ -84,17 +84,14 @@ Set to `false` to disable the writer (`attribute=`) method (by default the write
 **`reader`**:
 Set to `true` to disable the reader (`attribute`)  method (this is enabled if the `raw` option is set)
 
-**`reader`**:
-Set to `true` to disable the reader (`attribute`)  method (this is enabled if the `raw` option is set)
-
 **`raw`**:
 Enables raw mode.
 This makes a few changes.   
 Default and assigned values are stored internally in the value provided and not converted to boolean values  
  A `reader` method is added that allows you to read the raw value.   
- The query value will always return a boolean.  
+ The query method will always return a boolean.  
 
-#### Examples
+##### Examples
 
 ```ruby
   class User
