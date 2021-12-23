@@ -15,14 +15,14 @@ puts '### Output'
 puts
 puts '```'
 
-require_relative 'lib/memery'
+require_relative 'lib/bool_attr_accessor'
 
 class Foo
 
   class << self
 
     attr_boolean   :bool
-    attr_accessore :direct
+    attr_accessor  :direct
 
   end
 
@@ -33,7 +33,7 @@ def test_read_direct
 end
 
 def test_read_bool
-  Foo.bool
+  Foo.bool?
 end
 
 def test_write_direct
