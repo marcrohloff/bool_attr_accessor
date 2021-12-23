@@ -1,7 +1,7 @@
 # attr_bool_accessor
 [![Gem Version](https://badge.fury.io/rb/attr_bool_accessor.svg)](https://badge.fury.io/rb/attr_bool_accessor)
-[![Build Status](https://travis-ci.org/marcrohloff/attr_bool_accessor.svg?branch=master)](https://travis-ci.org/marcrohloff/attr_bool_accessor)
-[![Coverage Status](https://coveralls.io/repos/github/mrcrohloff/attr_bool_accessor/badge.svg?branch=master)](https://coveralls.io/github/marcrohloff/attr_bool_accessor?branch=master)
+[![Build Status](https://travis-ci.org/marcrohloff/attr_bool_accessor.svg?branch=main)](https://travis-ci.org/marcrohloff/attr_bool_accessor)
+[![Coverage Status](https://coveralls.io/repos/github/mrcrohloff/attr_bool_accessor/badge.svg?branch=main)](https://coveralls.io/github/marcrohloff/attr_bool_accessor?branch=main)
 
 **attr_bool_accessor** is a gem for adding boolean style attributes to classes.
 
